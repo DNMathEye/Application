@@ -1,1 +1,6 @@
 
+
+
+function selectDialogue(dialogue) {
+    
+}

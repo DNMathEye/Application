@@ -1,22 +1,33 @@
 
 
-.container{
+.typecontainer{
   display: inline-block;
 }
 
+.container{
+  width: 400px;
+  max-width: 80%;
+  background-color: rgb(0, 0, 0);
+  padding: 10px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px 2px;
+}
+
 body {
-  background-color: rgb(34, 17, 17);
-  color: rgb(64, 219, 90);
+  background-color: rgb(17, 18, 34);
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+  color: rgb(146, 239, 252);
   color-scheme: light dark;
 }
 
 
 .typed-out{
   overflow: hidden;
+  color: rgb(33, 238, 67);
   border-right: .15em solid rgb(64, 255, 137);
   white-space: nowrap;
   animation: 
-    typing 5s steps(25, end) forwards,
+    typing 3s steps(15, end) forwards,
     blink .8s infinite;
   font-family: monospace;
   font-size: 1.6rem;
@@ -25,8 +36,8 @@ body {
 
 @keyframes typing {
   from { width: 0 }
-  32% { width: 32%}
-  60% { width: 33%}
+  26% { width: 32%}
+  60% { width: 32%}
   to { width: 100% }
 }
 
