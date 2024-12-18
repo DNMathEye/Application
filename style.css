@@ -1,1 +1,37 @@
 
+
+.container{
+  display: inline-block;
+}
+
+body {
+  background-color: rgb(34, 17, 17);
+  color: rgb(64, 219, 90);
+  color-scheme: light dark;
+}
+
+
+.typed-out{
+  overflow: hidden;
+  border-right: .15em solid rgb(64, 255, 137);
+  white-space: nowrap;
+  animation: 
+    typing 5s steps(25, end) forwards,
+    blink .8s infinite;
+  font-family: monospace;
+  font-size: 1.6rem;
+  width: 0;
+}
+
+@keyframes typing {
+  from { width: 0 }
+  32% { width: 32%}
+  60% { width: 33%}
+  to { width: 100% }
+}
+
+@keyframes blink {
+  from { border-color: transparent }
+  50% { border-color: rgb(64, 255, 137); }
+  to { border-color: transparent }
+}
