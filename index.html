@@ -1,6 +1,11 @@
 <!DOCTYPE HTML>
 <!-- Hello! You might be here to check out the code!
-I have added some comments to explain and highlight parts
+I have added some comments to explain and highlight parts.
+
+There are three html pages:
+- the index page, which begins the dialogue tree, or gives the option to skip
+- the dialogue tree game page
+- the overview page, which contains all the info in a more easily readable way
  -->
 <html lang="en">
   <head>
@@ -12,17 +17,21 @@ I have added some comments to explain and highlight parts
   </head>
 
   <body>
-    <div class="typecontainer">
-      <div class="typed-out">
-        Hello... my name is David
-      </div>
-    </div>
-    <p></p>
     <div class="container">
-      The words thrum on the terminal in electric green.
-      <p> The blink of the cursor alters the light in the room with each pulse.</p>
-      <a href="page2.html">This is an anchor element.</a>
-      <button onclick="window.location.href='page2.html'">This is a button element</button>
+      <div class="typecontainer">
+        <div class="typed-out">
+          > Hello... my name is David
+        </div>
+      </div>
+      <p></p>
+      <div class="bcontainer">
+        The words thrum on the terminal in electric green.
+        <p> The blink of the cursor alters the light in the room with each pulse.</p>
+        <div class="btn-grid">
+        <button class = btn onclick="window.location.href='application.html'">Look at the application</button>
+        </div>
+      </div>
+      <small><a href="overview.html">Skip straight to the overview</a></small>
     </div>
   </body>
 
